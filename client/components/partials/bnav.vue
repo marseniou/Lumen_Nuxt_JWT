@@ -31,7 +31,7 @@ export default {
       return [{ href: "/", name: "Αρχική" }]
     },
     site_name(){
-      console.log(process.env.siteName)
+      
       return process.env.siteName
     }
 
